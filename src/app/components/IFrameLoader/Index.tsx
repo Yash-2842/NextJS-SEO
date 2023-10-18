@@ -9,7 +9,12 @@ const IFrameLoader = () => {
     iFrame.src = "./iFrame.html";
     document.body.appendChild(iFrame);
   };
-  return <Button onClick={clickHandler}>Load Page</Button>;
+  return (
+    <div>
+      <h1>Demo Project for testing seo</h1>
+      <Button onClick={clickHandler}>Load Page</Button>
+    </div>
+  );
 };
 
 export default IFrameLoader;
